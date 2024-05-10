@@ -40,11 +40,11 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/wwbo.png
+favicon: /img/yinlang.png
 
 # Avatar (頭像)
 avatar:
-  img: "./img/miko02.jpg"
+  img: https://hspacetest.oss-cn-wuhan-lr.aliyuncs.com/yaeback03.jpg
   effect: false
 
 # Disable all banner image (顶部图)
