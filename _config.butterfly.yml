@@ -3,7 +3,7 @@
 # --------------------------------------
 
 nav:
-  logo: https://hspacetest.oss-cn-wuhan-lr.aliyuncs.com/4c1bd9c0-0997-455f-ba59-43f7fd7af68a.png
+  logo: "./img/wwbo.png"
   display_title: true
   fixed: false # fixed navigation bar
 
@@ -13,6 +13,7 @@ menu:
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
+  相册: /gallery/ || fas fa-images
   链接||fas fa-list:
     友情链接: /link/ || fas fa-link
     关于: /about/ || fas fa-heart
@@ -33,8 +34,8 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  fab fa-github: https://github.com/hmwm/wuwutable || Github || '#FFCFCE'
-  fas fa-envelope: yaemiko7723@gmail.com || Email || '#FFCFCE'
+  fab fa-github: https://github.com/hmwm/Hspace || Github || '#FFCFCE'
+  fas fa-envelope: 1037462262@qq.com || Email || '#FFCFCE'
 
 # Image (圖片設置)
 # --------------------------------------
@@ -44,7 +45,7 @@ favicon: /img/yinlang.png
 
 # Avatar (頭像)
 avatar:
-  img: https://hspacetest.oss-cn-wuhan-lr.aliyuncs.com/yaeback03.jpg
+  img: "./img/miko02.jpg"
   effect: false
 
 # Disable all banner image (顶部图)
@@ -642,7 +643,8 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://hspacetest.oss-cn-wuhan-lr.aliyuncs.com/yaemiko01.jpg)
+background: url(../img/yaemiko01.jpg)
+# https://hspacetest.oss-cn-wuhan-lr.aliyuncs.com/yaemiko01.jpg
   
 
 # Footer Background

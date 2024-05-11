@@ -1,6 +1,8 @@
 ---
 title: 图库
+type: "gallery"
 date: 2024-05-09 23:07:51
+top_img: "./img/03.jpg"
 ---
 <div class="gallery-group-main">
 {% galleryGroup '壁紙' '收藏的一些壁紙' '/Gallery/wallpaper' https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png %}
