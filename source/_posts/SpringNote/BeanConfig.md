@@ -70,3 +70,4 @@ BookDao bookDao = (BookDao) ctx.getBean("bookDao4");
 - 封装实体的域对象【状态的，记录了成员变量属性值】
 
 ***不可复用***
+

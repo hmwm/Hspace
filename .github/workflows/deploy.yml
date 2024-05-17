@@ -1,0 +1,45 @@
+name: Deploy Hexo Hspace site
+
+on:
+  push:
+    branches:
+      - master  # 或者你的部署分支
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: true  # 初始化子模块
+          fetch-depth: 1
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Hexo CLI
+        run: npm install -g hexo-cli
+
+      - name: Setup Git
+        run: |
+          git config --global user.name 'hmwm'
+          git config --global user.email '1037462262@qq.com'
+
+      - name: Clean Hexo cache files
+        run: hexo clean
+        
+      - name: Generate Hexo files
+        run: hexo generate
+
+      - name: Deploy to GitHub Pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          hexo deploy
