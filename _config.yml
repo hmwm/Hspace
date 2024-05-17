@@ -102,7 +102,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/hmwm/Hspace.git
+  repo: https://hmwm:${GITHUB_TOKEN}@github.com/hmwm/Hspace.git
   branch: gh-pages
 
 

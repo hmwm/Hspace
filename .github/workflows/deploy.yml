@@ -3,7 +3,7 @@ name: Deploy Hexo Hspace site
 on:
   push:
     branches:
-      - master  # 或者你的部署分支
+      - update/v0.0.1  # 或者你的部署分支
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          submodules: true  # 初始化子模块
+          submodules: recursive  # 初始化子模块
           fetch-depth: 1
 
       - name: Setup Node.js environment
@@ -40,6 +40,8 @@ jobs:
 
       - name: Deploy to GitHub Pages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
+          git config --global credential.helper store
+          echo "https://github-actions:${{ secrets.GH_TOKEN }}@github.com" > ~/.git-credentials
           hexo deploy
