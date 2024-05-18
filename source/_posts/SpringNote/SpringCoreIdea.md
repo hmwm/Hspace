@@ -1,7 +1,8 @@
 ---
 title: Spring核心思想
 date: 2024-05-14 23:58:25
-tags: 
+tags: "Spring"
+categories: "Note"
 top_img: "./img/02.jpg"
 cover: "./img/04.png"
 ---

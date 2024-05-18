@@ -1,5 +1,7 @@
 ---
 title: My first blog demo
+date: '2024-04-09 21:16:00'
+tags: "Hello Blog"
 top_img: "./img/02.jpg"
 cover: "./img/02.jpg"
 ---
