@@ -3,8 +3,8 @@ title: 自动装配
 date: 2024-05-22 23:58:25
 tags: "Spring"
 categories: "Note"
-top_img: https://hspacetest.oss-cn-wuhan-lr.aliyuncs.com/image17.jpg?Expires=1716907191&OSSAccessKeyId=TMP.3KidgZfcgvypaoaiLm9vpeVqSPpqPnxZd1HvQ8vJEjGTkTFpdLNfZqtpexBnCxYEN64SZkABJaV1iHqHZvQ32dfqcp5d39&Signature=P8ZD06hBR8XXP3ra5VTrIQwuXK8%3D
-cover: https://hspacetest.oss-cn-wuhan-lr.aliyuncs.com/image17.jpg?Expires=1716907191&OSSAccessKeyId=TMP.3KidgZfcgvypaoaiLm9vpeVqSPpqPnxZd1HvQ8vJEjGTkTFpdLNfZqtpexBnCxYEN64SZkABJaV1iHqHZvQ32dfqcp5d39&Signature=P8ZD06hBR8XXP3ra5VTrIQwuXK8%3D
+top_img: https://raw.githubusercontent.com/hmwm/vblog/main/pic/image24.jpg
+cover: https://raw.githubusercontent.com/hmwm/vblog/main/pic/image24.jpg
 ---
 ### Notes
 
