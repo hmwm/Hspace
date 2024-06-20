@@ -6,7 +6,7 @@ categories: "Note"
 top_img: https://raw.githubusercontent.com/hmwm/vblog/main/pic/bokymo.jpg
 cover: https://raw.githubusercontent.com/hmwm/vblog/main/pic/bokymo.jpg
 ---
-# Python期末复习笔记
+# Python
 
 ## 基础概念（包括选择简答）
 
