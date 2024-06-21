@@ -189,7 +189,7 @@ print(numbers_set) #输出结果：{3, 4, 6, 7, 8, 10}
     print(circle1.radius) #（1）输出结果 4
     print(circle1.area()) #（2）输出结果 50.24
     
-    print(circle2.radius) #（3）输出结果 25
+    print(circle2.radius) #（3）输出结果 5
     print(circle2.area()) #（4）输出结果 78.5
     ```
     
