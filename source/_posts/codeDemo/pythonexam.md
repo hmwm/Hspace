@@ -3,8 +3,8 @@ title: Python期末复习
 date: 2024-06-18 22:58:25
 tags: "Python"
 categories: "Note"
-top_img: https://raw.githubusercontent.com/hmwm/vblog/main/pic/bokymo.jpg
-cover: https://raw.githubusercontent.com/hmwm/vblog/main/pic/bokymo.jpg
+top_img: https://apr-akina.online/blog/bokymo.jpg
+cover: https://apr-akina.online/blog/bokymo.jpg
 ---
 # Python
 
