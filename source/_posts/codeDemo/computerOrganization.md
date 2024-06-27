@@ -127,11 +127,21 @@ M代表内存，（）括号代表某个寄存器内的内容，（PC）代表pc
 ![指令流](https://apr-akina.online/blog/20240627170059.png)
 
 1. **请写出图中a、b、c、d 4个寄存器的名称。**
-    
-    - a: MDR（数据寄存器）
-    - b: IR（指令寄存器）
-    - c: MAR（地址寄存器）
-    - d: PC（程序计数器）
+
+<div class="clearfix">
+<div class="left">
+  
+- a: MDR（数据寄存器）
+- b: IR（指令寄存器）
+- c: MAR（地址寄存器）
+- d: PC（程序计数器）
+
+</div>
+<div class="right">
+  <img src="https://apr-akina.online/blog/6F6563747B91A51248BC9EAEDB42B7E3.jpg" alt="主存容量扩展-字扩展">
+</div>
+</div>
+
 2. **简述图中取指令的数据通路。**
     
     ```pascal
@@ -239,6 +249,30 @@ M代表内存，（）括号代表某个寄存器内的内容，（PC）代表pc
     margin-top: 10px;
     font-style: italic;
     color: #555;
+}
+.left {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+
+.right {
+  float: right;
+  width: 45%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 </style>
 
