@@ -3,8 +3,8 @@ title: 计算机组成原理期末复习
 date: 2024-06-27 22:58:25
 tags: "CO"
 categories: "Note"
-top_img: https://apr-akina.online/blog/61ac5e440dac4d97a6624e05044c4074.jpg
-cover: https://apr-akina.online/blog/61ac5e440dac4d97a6624e05044c4074.jpg
+top_img: https://apr-akina.online/blog/03.jpg
+cover: https://apr-akina.online/blog/03.jpg
 ---
 ### Notes
 
@@ -218,7 +218,7 @@ M代表内存，（）括号代表某个寄存器内的内容，（PC）代表pc
 
 *我不会，记吧，记两个就行，后面也能画出来*
 
-# 整点彩蛋
+# 封面自取
 
 <style>
 .custom-image-container {
