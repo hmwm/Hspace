@@ -11,3 +11,17 @@ top_img: "./img/03.jpg"
 {% galleryGroup 'MY Love' 'Lover的圖片' '/Gallery/ohmygirl' https://raw.githubusercontent.com/hmwm/vblog/main/pic/image29.jpg %}
 </div>
 
+![](https://apr-akina.online/blog/5268d877a2a04864b36b4961ab793f4f.jpg)
+
+![](https://apr-akina.online/blog/03.jpg)
+
+
+<style>
+img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+</style>
